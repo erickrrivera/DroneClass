@@ -36,7 +36,7 @@ arm_and_takeoff(20)
 
 drone.airspeed = 10
 
-a_location = LocationGlobal(-35.362653, 149.165827)
+a_location = LocationGlobalRelative(-35.362653, 149.165827, 20)
 drone.simple_goto(a_location)
 
 time.sleep(50)
